@@ -1,0 +1,49 @@
+
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+build/
+
+# Environment variables and secrets
+.env*
+!.env.example
+
+# pnpm
+.pnpm-store/
+
+# Testing
+coverage/
+
+# Build tools and caches
+.turbo/
+*.tsbuildinfo
+
+# Deployment
+.vercel/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors and IDEs
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Local configuration
+*.local
+
+# Certificates and private keys
+*.pem
+*.key
